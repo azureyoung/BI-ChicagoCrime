@@ -1,12 +1,14 @@
 # BI-ChicagoCrime
-Analyze Chicago crime (2002-2016) with SQL/SSIS/SSRS
 
-This project is to analyze Chicago crime between 2002 and 2016 with business intelligence tools as SQL server, SSIS and SSRS.
+This project is to provide a business intelligence solution to present and analyze Chicago crime. 
 
-The original dataset was downloaded from Data Portal of City of Chicago. The original dataset including multiple csv files for different periods.
+BI tools in this project :SQL server 2016, SSIS and SSRS.
 
-The original data crime data, community information crime information were exported, combined, transformed and loading into respective staging tables in SQL server by SSIS. The data warehouse/marts were constructed by dimensional model.
+The original dataset was downloaded from Data Portal of City of Chicago. 
+https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
-The analyzed data were reported by SSRS using stored procedures. 
+The original data about crime, community information and crime information were exported, combined, transformed, cleaned and loaded into respective staging tables in SQL server by SSIS. The data warehouse/marts were constructed by dimensional model.
 
-With this BI solution,  the crime data can be mapped, checked and analyzed basing on year, type and location. The details can be read in the document named Chicago Crime Report.
+The analyzed data were reported by SSRS using stored procedures wrote in SQL server. 
+
+With this BI solution,  the crime data can be checked and analyzed basing on year, type and location. The crime data can be presented in formats such map, chart and table. The examples were presented in the powerpoint document named BI-Chicago Crime.
